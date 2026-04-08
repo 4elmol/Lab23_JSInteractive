@@ -3,7 +3,7 @@ const statusText = document.getElementById("status");
 const restartBtn = document.getElementById("restart");
 
 let currentPlayer = "X";
-let board = [ "", "", "", "", "", "", "", "", "" ];
+let board = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 let gameActive = true;
 
 const winConditions = [
